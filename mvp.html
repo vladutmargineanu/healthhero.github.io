@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<title>PlanInsta</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
+
+		<link rel="stylesheet" href="fonts/icomoon/style.css">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+		<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+		<link rel="stylesheet" href="css/aos.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <link rel="stylesheet" href="css/mvp_style.css">
+    </head>
+
+	<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" style="padding-top: 0px;">
+
+		<div class="site-wrap" id="home-section">
+				<div class="site-mobile-menu site-navbar-target">
+				<div class="site-mobile-menu-header">
+						<div class="site-mobile-menu-close mt-3">
+						<span class="icon-close2 js-menu-toggle"></span>
+						</div>
+				</div>
+				<div class="site-mobile-menu-body"></div>
+			</div>
+		</div>
+
+		<header class="site-navbar site-navbar-target" role="banner">
+			<div class="container">
+					<div class="row align-items-center position-relative">
+					<div class="col-3 ">
+							<div class="site-logo">
+							<a href="https://fiki.planinsta.ro/" class="font-weight-bold">PlanInsta.</a>
+							</div>
+					</div>
+
+					<div class="col-9  text-right">
+							<span class="d-inline-block d-lg-block"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+				
+						<nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
+							<ul class="site-menu main-menu js-clone-nav ml-auto ">
+								<li><a href="index.html" class="nav-link">Home</a></li>
+								<li><a href="description.html" class="nav-link">M1: Project Description</a></li>
+								<li><a href="validation1.html" class="nav-link">M2: Validation 1</a></li>
+								<li><a href="wireframeAndLandingPage.html" class="nav-link">M3: Wireframes and Landing Page</a></li>
+								<li><a href="ux.html" class="nav-link">M4: User Experience</a></li>
+								<li><a href="validation2.html" class="nav-link">M5: Validation 2</a></li>
+                                <li><a href="marketResearch.html" class="nav-link">M6: Market Research</a></li>
+                                <li class="active"><a href="mvp.html" class="nav-link">M7: MVP</a></li>
+								<li><a href="firstSale.html" class="nav-link">M8: First Sale</a></li>
+								<li><a href="finalPresentation.html" class="nav-link">M9: Final Presentation</a></li>
+								<li><a href="finalizeFiki.html" class="nav-link">M11: Finalize Fiki</a></li>
+							</ul>
+							</nav>
+					</div>
+					</div>
+			</div>
+		</header>
+
+		<div class="ftco-blocks-cover-1">
+			<div class="site-section-cover overlay" style="background-image: url('images/background2.jpg')">
+				<div class="container">
+					<div class="row align-items-center justify-content-center">
+						<div class="col-md-7 text-center">
+							<h1 class="mb-4 text-white" style="padding-bottom: 50px;">PlanInsta</h1>
+							
+							<div class="row">
+								<div class="col"><a href="#planInstaTeam" class="btn btn-primary btn-outline-white py-3 px-5">Meet our team</a></div>
+								<div class="col"><a href="mailto:office.planinsta@gmail.com" target="_blank" class="btn btn-primary btn-outline-white py-3 px-5">Contact us</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="text-center" style="padding-bottom:20px; padding-top:50px;">
+			<h2 class="heading-29190">Introduction</h2>
+			Starting from the results of the validation process of the problem and the solution (
+				<a href="validation1.html"><span style="font-weight:bold;">M2</span></a>,
+				<a href="validation2.html"><span style="font-weight:bold;">M5</span></a>,
+				<a href="marketResearch.html"><span style="font-weight:bold;">M6</span></a>
+			), 
+			we decided that our MVP must have the following functionalities implemented to meet the preferences of as many users as possible:
+			<br><br>
+			<h4>Clients</h4>
+				- The possibility to make an online appointment at the desired salon<br>
+				- The possibility to view the services offered by a salon<br>
+				- The possibility to see all the free slots for a longer period of time<br>
+				- View the appointments in a calendar<br>
+				- Filtering of salons according to certain criteria<br>
+				- The possibility to reviews salons<br>
+				- Notification system for active appointments<br>
+				- Online payment<br>
+				- Integration with Google Calendar<br>
+				- History of appointments<br>
+			<br><br>
+			<h4>Beauty and wellness salons</h4>
+			<ul>
+				- Ability to see the appointments in a digital calendar<br>
+				- Appointment confirmation a few days before by the client<br>
+				- Appointment history<br>
+				- Ability to view customer profiles<br>
+				- Ability to accept or refuse an appointment request<br>
+				- Online payment<br>
+				- Client evaluation<br>
+			</ul>
+
+			<br><br>
+			Before starting implementing all these features, we divided them in two categories
+			in order to prioritize them:
+			<span style="font-weight:bold;">MUST HAVE</span> and <span style="font-weight:bold;">NICE TO HAVE</span>.
+		
+			<br><br><br>
+			<h4>Clients</h4>
+			<table class="table table-hover" style="text-align: center; margin: auto; width: 70%; border: 1px solid #dddddd">
+				<thead>
+					<tr class="table-active">
+						<th scope="col">MUST HAVE</th>
+						<th scope="col">NICE TO HAVE</th>
+					</tr>
+				</thead>
+			
+				<tbody>
+					<tr>
+						<td>Possibility to make an online appointment to the desired salon</td>
+						<td>Filtering of salons according to certain criteria</td>
+					</tr>
+					<tr>
+						<td>Possibility to view all the services offered by a salon</td>
+						<td>Notification system for active appointments</td>
+					</tr>
+					<tr>
+						<td>The possibility to see all the free slots for a longer period of time</td>
+						<td>Online payment</td>
+					</tr>
+					<tr>
+						<td>View the appointments in a calendar</td>
+						<td>Integration with Google Calendar</td>
+					</tr>
+					<tr>
+						<td>Possibility to offer reviews of salons</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<br><br>
+			<h4>Beauty and wellness salons</h4>
+			<table class="table table-hover" style="text-align: center; margin: auto; width: 70%; border: 1px solid #dddddd">
+				<thead>
+					<tr class="table-active">
+						<th scope="col">MUST HAVE</th>
+						<th scope="col">NICE TO HAVE</th>
+					</tr>
+				</thead>
+			
+				<tbody>
+					<tr>
+						<td>Ability to see the appointments in a digital calendar</td>
+						<td>Appointment confirmation a few days before by the client</td>
+					</tr>
+					<tr>
+						<td>Ability to accept or refuse an appointment request</td>
+						<td>Online payment</td>
+					</tr>
+					<tr>
+						<td>Appointment history</td>
+						<td>Client evaluation</td>
+					</tr>
+					<tr>
+						<td>Ability to view customer profiles</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<br><br>
+			In the following we will present the results that we have managed to achieve so far. <br>
+			Due to the short time left, we decided to focus on implementing an early prototype rather than an MVP <br>
+			and afterwards to ask for feedback to check if our solution heads in the right direction <br>
+			and only if we receive positive feedback to add the key functionalities of the application.
+		</div>
+
+		<hr>
+
+		<!-- CLIENTS VERSION -->
+
+		<div class="text-center" style="padding-bottom:20px; padding-top:50px;">
+			<h2 class="heading-29190">Clients Version</h2>
+			<div class="row d-flex align-items-center justify-content-center" style="margin:auto;">
+				<div class="card-body col-12 col-md-8">
+					Currently, the PlanInsta version for clients contains the following functionalities:<br>
+					- The possibility to create a new account<br>
+					- Login and logout<br>
+					- Change account data<br>
+					- The possibility of viewing a list of all salons<br>
+					- The possibility to search for a specific salon<br>
+					- The possibility to view the employees of a salon and the services provided by them<br>
+					- The possibility to make an online appointment<br>
+					- The possibility to easily choose the employee of the salon and the date and time of the appointment<br>
+				</div>
+
+				When a client accesses PlanInsta, he/she will be welcomed by the following window:
+				<div class="gap-20"></div>
+				<div>
+					<img src="images/screenshot/1.png" style="width:1200px;">
+				</div>
+
+				<div class="gap-20"></div>
+
+				As noticed, the main page presents a list of all salons available on PlanInsta platform. <br>
+				Also, the top bar contains the following 3 features:<br>
+				- Create a new account<br>
+				- Log into an existing account<br>
+				- Search for a specific salon<br>
+
+				<div class="gap-20"></div>
+				The following 2 images show how the forms for Login and Sign In look like.
+				<div class="gap-20"></div>
+				<div>
+					<img src="images/screenshot/2.png" >
+				</div>
+				<div class="gap-20"></div>
+				<div>
+					<img src="images/screenshot/3.png">
+				</div>
+				<div class="gap-20"></div>
+
+				After the client authenticates into his/her account, the top bar changes as follows:
+				<div class="gap-20"></div>
+				<div>
+					<img src="images/screenshot/4.png" style="width:1200px;">
+				</div>
+				As we can see, 3 new menus are now available: Account, Appointments and Logout. <br>
+				By selecting the Account menu, the user can update his/her data as shown in the following image:
+				<div class="gap-20"></div>
+				<div>
+					<img src="images/screenshot/5.png" style="width:1200px;">
+				</div>
+
+				<div class="gap-20"></div>
+				Coming back to the appointment process, selecting a beauty salon will open a new window containing the list
+				of the employees and what services are provided by each one.
+				<div class="gap-20"></div>
+				<div>
+					<img src="images/screenshot/6.png" style="width:1200px;">
+				</div>
+
+				<div class="gap-20"></div>
+				By selecting the option "Make an appointment", the user has the possibility to choose the employee and to also view
+				the available slots in a calendar and select the preferred one.
+				<div class="gap-20"></div>
+				<div>
+					<img src="images/screenshot/7.png" style="width:1200px;">
+				</div>
+
+				<div class="gap-20"></div>
+				The following video presents the client flow considering the features implemented so far.
+				<div class="gap-20"></div>
+				<video width="65%" controls style="margin-left:auto; margin-right:auto;">
+					<source src="images/demo.mov" type="video/mp4">
+					Your browser does not support HTML5 video.
+				</video>
+			</div>
+		</div>
+
+		<hr>
+
+		<!-- BEAUTY AND WELLNESS VERSION -->
+		<div class="text-center" style="padding-bottom:20px; padding-top:50px;">
+			<h2 class="heading-29190">Beauty and Wellness Salons Version</h2>
+			<div class="row d-flex align-items-center justify-content-center" style="margin:auto;">
+				<div class="card-body col-12 col-md-8">
+					Despite the version for clients, the prototype for the beauty and wellness salons is still in progress as
+					we are still working for the Front-End part.
+					Good things take time :D
+				</div>
+
+				<div>
+					<img src="images/wip.png" style="width:300px;">
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<!-- WHAT'S NEXT? -->
+		<div class="text-center" style="padding-bottom:20px; padding-top:50px;">
+			<h2 class="heading-29190">What's next?</h2>
+			<div class="row d-flex align-items-center justify-content-center" style="margin:auto;">
+				<div>
+					<img src="images/next.png" style="width:200px;">
+				</div>
+
+				<div class="card-body col-12 col-md-8">
+					Currently, we are still working on developing PlanInsta in order to finish the prototype 
+					for the beauty and wellness salons. <br>
+					Once this is ready, we will focus on implementing the 
+					<span style="font-weight:bold;">NICE TO HAVE elements</span>, which will represent the differentiators 
+					between PlanInsta and the existing solutions. <br>
+					At the same time, we will try to periodically get feedback for the new functionalities in order to ensure that our solution remains 
+					simple to use for our users and that its functionalities meet their requirements. <br>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="gap-20"></div>
+		<div class="gap-20"></div>
+
+		<div style="width: 100%; overflow: hidden; padding-bottom: 30px;">
+			<div style="width: 50%; float: left; text-align: center;">
+				<button type="button" class="btn btn-primary" style="background:rgb(11, 47, 88); border-color: rgb(11, 47, 88);">
+					<a href="marketResearch.html" style="color: white;">
+						<i class="fa fa-angle-double-left"></i>  M6: Market Research
+					</a>
+				</button></div>
+			<div style="width: 50%; float:right; text-align: center;">
+				<button type="button" class="btn btn-primary" style="background:rgb(11, 47, 88); border-color: rgb(11, 47, 88);">
+					<a href="firstSale.html" style="color: white;">
+					M8: First Sale <i class="fa fa-angle-double-right"></i>
+					</a>
+				</button>
+			</div>
+		</div>
+
+
+		<hr>
+
+		<!-- TEAM -->
+
+		<div id="planInstaTeam" class="site-section" style="padding-bottom: 50px; padding-top: 50px;">
+			<div class="container">
+				<div class="row">
+				<div class="col-md-7 mx-auto text-center">
+					<h2 class="heading-29190">PlanInsta Team</h2>
+				</div>
+				</div>
+
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+						<div class="text-centered">
+							<div class="person-pic-39219 mb-4 d-flex align-items-center justify-content-center">
+								<img src="images/Ovidiu.jpeg" class="img-fluid">
+							</div>
+							<h5 style="margin-bottom: 0px;"><dt>Ovidiu Dăncilă</dt></h5>
+							<h6 style="margin-bottom: 10px;">ovidiu.dancila@gmail.com</h6>
+							<h6><dt>Back-End Developer</dt></h6>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+						<div class="text-centered">
+							<div class="person-pic-39219 mb-4 d-flex align-items-center justify-content-center">
+								<img src="images/lecu.jpg" class="img-fluid">
+							</div>  
+							<h5 style="margin-bottom: 0px;"><dt>Andrei Lecu</dt></h5>
+							<h6 style="margin-bottom: 10px;">andreilecu07@gmail.com</h6>
+							<h6><dt>Back-End Developer</dt></h6>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+						<div class="text-centered">
+							<div class="person-pic-39219 mb-4 d-flex align-items-center justify-content-center">
+								<img src="images/Ilie.jpg" class="img-fluid">
+							</div>
+							<h5 style="margin-bottom: 0px;"><dt>Vlad Ilie</dt></h5>
+							<h6 style="margin-bottom: 10px;">ilievlad73@gmail.com</h6>
+							<h6><dt>Front-End Developer</dt></h6>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+						<div class="text-centered">
+							<div class="person-pic-39219 mb-4 d-flex align-items-center justify-content-center">
+								<img src="images/andreea.jpg" class="img-fluid">
+							</div>  
+							<h5 style="margin-bottom: 0px;"><dt>Andreea Georgian</dt></h5>
+							<h6 style="margin-bottom: 10px;">andreea18nov1996@gmail.com</h6>
+							<h6><dt>Front-End Developer</dt></h6>
+						</div>
+					</div>
+				
+					<div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+						<div class="text-centered">
+							<div class="person-pic-39219 mb-4 d-flex align-items-center justify-content-center">
+								<img src="images/Stefanescu.jpg" class="img-fluid">
+							</div>  
+							<h5 style="margin-bottom: 0px;"><dt>Vlad Ștefănescu</dt></h5>
+							<h6 style="margin-bottom: 10px;">vlad.a.stefanescu@gmail.com</h6>
+							<h6><dt>Front-End Developer</dt></h6>
+						</div>
+					</div>
+				</div>
+
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+						<div class="text-centered">
+							<div class="person-pic-39219 mb-4 d-flex align-items-center justify-content-center">
+								<img src="images/Popa.jpg" class="img-fluid">
+							</div>
+							<h5 style="margin-bottom: 0px;"><dt>Cristian Popa</dt></h5>
+							<h6 style="margin-bottom: 10px;">cristian.viorel.popa@gmail.com</h6>
+							<h6><dt>Data Scientist</dt></h6>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+						<div class="text-centered">
+							<div class="person-pic-39219 mb-4 d-flex align-items-center justify-content-center">
+								<img src="images/bianca.jpg" class="img-fluid">
+							</div>  
+							<h5 style="margin-bottom: 0px;"><dt>Bianca Cauc</dt></h5>
+							<h6 style="margin-bottom: 10px;">cauc.bianca@gmail.com</h6>
+							<h6><dt>Project Manager</dt></h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="row text-center" style="background-image: url('images/background2.jpg')">
+			<div class="col-md-12"> 
+				<div class="d-flex align-items-center justify-content-center" style="padding-top: 30px;">
+					<i class="fa fa-envelope" style="padding-right: 5px; color:white;"></i>
+					<dt class="text-white">office.planinsta@gmail.com</dt>
+				</div>
+
+				<div class="d-flex align-items-center justify-content-center" style="padding-top: 0px;">
+					<i class="fa fa-map-marker" style="padding-right: 5px; color:white;"></i>
+					<dt class="text-white">Bucharest, Romania</dt>
+				</div>
+
+				<div class="gap-20"></div>
+
+				<div class="d-flex align-items-center justify-content-center" style="padding-top: 0px; padding-bottom:30px; color:white;">
+					Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/jquery-migrate-3.0.0.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.sticky.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.animateNumber.min.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/bootstrap-datepicker.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/aos.js"></script>
+
+		<script src="js/main.js"></script>
+
+  	</body>
+</html>
+
