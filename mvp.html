@@ -91,11 +91,11 @@
 				<a href="validation2.html"><span style="font-weight:bold;">M5</span></a>,
 				<a href="marketResearch.html"><span style="font-weight:bold;">M6</span></a>
 			), 
-			am ajuns la concluzia că MVP-ul nostru ar trebui să aibă următoarele funcționalități implementate pentru a putea stisface 
+			am ajuns la concluzia că platforma noastră ar trebui să aibă următoarele funcționalități implementate pentru a putea stisface 
 			cât mai multe din nevoile și preferințele clienților noștri:
 			
 			<br><br>
-			<h4>Pacineți</h4>
+			<h4>Pacienți</h4>
 				- Posibilitatea de a efectua o programare la cabinetul ales<br>
 				- Posibilitatea vizualizării datelor de interes despre o clinica sau un cabinet.<br>
 				- Posibiltatea căutării clinicilor/cabinetelor în funcție de locația dorită<br>
@@ -107,6 +107,9 @@
 				- Posibilitatea vizualizării istoricului programărilor<br>
 				- Posibilitatea anulării unei programări efectuate<br>
 				- Sistem de notificări care sa le aminteasca pacientilor de programarile lor <br>
+				- Posibilitatea de a vizualiza o listă cu doctorii pentru fiecare clinică <br>
+				- Posibilitatea de a filtra doctorii în funcție de serviciu <br>
+				- Posibilitatea de a adresa întrebări legate de platformă.<br>
 			<br><br>
 			<h4>Clinici și Cabinete Medicale sau Stomatologice</h4>
 			<ul>
@@ -123,7 +126,7 @@
 			<span style="font-weight:bold;">OBLIGATORII</span> and <span style="font-weight:bold;">OPȚIONALE</span>.
 		
 			<br><br><br>
-			<h4 style="background-color: #86c96279">Pacineți</h4>
+			<h4 style="background-color: #86c96279">Pacienți</h4>
 			<table class="table table-hover" style="text-align: center; margin: auto; width: 70%; border: 1px solid #86C962">
 				<thead style="background-color: #86C962;">
 					<tr class="table-active">
@@ -146,6 +149,10 @@
 						<td>Posibiltatea vizualizării statusului programării efectuate (neconfirmată/confirmată/onorată)</td>
 					</tr>
 					<tr>
+						<td>Posibilitatea de a vizualiza o listă cu doctorii pentru fiecare clinică </td>
+						<td>Posibiltatea vizualizării programării efectuate. </td>
+					</tr>
+					<tr>
 						<td>Posibiltatea vizualizării programării efectuate</td>
 						<td>Posibilitatea anulării unei programări efectuate. </td>
 					</tr>
@@ -154,7 +161,15 @@
 						<td></td>
 					</tr>
 					<tr>
+						<td>Posibilitatea de a filtra doctorii în funcție de serviciu.</td>
+						<td></td>
+					</tr>
+					<tr>
 						<td>Posibilitatea vizualizării datelor de interes despre o clinica sau un cabinet.</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Posibilitatea de a adresa întrebări legate de platformă.</td>
 						<td></td>
 					</tr>
 				</tbody>
@@ -200,53 +215,75 @@
 		<!-- CLIENTS VERSION -->
 
 		<div class="text-center" style="padding-bottom:20px; padding-top:50px;">
-			<h2 class="heading-29190">Clients Version</h2>
+			<h2 class="heading-29190">Interfața pentru Pacienți</h2>
 			<div class="row d-flex align-items-center justify-content-center" style="margin:auto;">
 				<div class="card-body col-12 col-md-8">
-					Currently, the PlanInsta version for clients contains the following functionalities:<br>
-					- The possibility to create a new account<br>
-					- Login and logout<br>
-					- Change account data<br>
-					- The possibility of viewing a list of all salons<br>
-					- The possibility to search for a specific salon<br>
-					- The possibility to view the employees of a salon and the services provided by them<br>
-					- The possibility to make an online appointment<br>
-					- The possibility to easily choose the employee of the salon and the date and time of the appointment<br>
+					La momentul actual, versiunea noastră a platformei HealthHero conține următoarele funcționalități în cadrul interfeței destinate pacienților:<br>
+					- Posibilitatea de a își crea un cont<br>
+					- Login și logout<br>
+					- Posibilitatea de a vizualiza o listă cu clinicile și cabinetele medicale și stomatologice din toată țara<br>
+					<!-- - Posibilitatea de a filtra unitățile medicale în funcție de anumite criterii (locație și servicii oferite) <br> -->
+					- Posibilitatea de a face o programare online<br>
+					- Posibilitatea de a vizualiza o listă cu doctorii pentru fiecare clinică<br>
+					- Posibilitatea de a adăuga feedback pentru doctori<br>
+					- Posibilitatea de a adresa întrebări legate de platformă.<br>
 				</div>
 
-				When a client accesses PlanInsta, he/she will be welcomed by the following window:
+				Când un pacient va încerca să acceseze platforma HealthHero va fi direcționat către pagina noastră de landing:
 				<div class="gap-20"></div>
 				<div>
-					<img src="images/screenshot/1.png" style="width:1200px;">
+					<img src="images/screenshot/1.png"  style="width:1500px;" >
 				</div>
 
 				<div class="gap-20"></div>
 
-				As noticed, the main page presents a list of all salons available on PlanInsta platform. <br>
-				Also, the top bar contains the following 3 features:<br>
-				- Create a new account<br>
-				- Log into an existing account<br>
-				- Search for a specific salon<br>
+				După cum se poate observa, pagina principală a aplicației evidențiază funcționalitatea de bază a aplicației: efectuarea programărilor, prin intermediul butonului „Programează-te”.   . <br>
+				De asemenea, bara de navigație conține următoarele funcționalități:<br>
+				- Autentificare <br>
+				- Secțiune de FAQ <br>
+				- Acasă<br>
+				În plus, pagina principală mai conține: <br>
+				- Butonul de „Află mai multe”<br>
+				- Câmp pentru abonarea la newsletter <br>
 
+					
 				<div class="gap-20"></div>
-				The following 2 images show how the forms for Login and Sign In look like.
+				Prin apăsarea butonului de află mai multe, utilizatorul este redirecționat către următoarea pagină: <br>
 				<div class="gap-20"></div>
 				<div>
-					<img src="images/screenshot/2.png" >
+					<img src="images/screenshot/afla.png" style="width:1200px;" >
+				</div>
+				<div class="gap-20"></div>
+				Următoarele două capturi evidențiază formularele de Autentificare și Înregistrare din cadrul platformei noastre.
+				<div class="gap-20"></div>
+				<div>
+					<img src="images/screenshot/2.png" style="width:1200px;" >
 				</div>
 				<div class="gap-20"></div>
 				<div>
-					<img src="images/screenshot/3.png">
+					<img src="images/screenshot/3.png" style="width:1200px;">
 				</div>
 				<div class="gap-20"></div>
 
-				After the client authenticates into his/her account, the top bar changes as follows:
+				După ce pacientul trece de procesul de autentificare, acesta va fi redicționat către landing page unde vor fi vizibile în cadrul barei de navigație următoarele opțiuni noi: <br>
+				- Clinici <br>
+				- Doctori <br>
+				- Istoric Medical <br>
+
+
 				<div class="gap-20"></div>
 				<div>
-					<img src="images/screenshot/4.png" style="width:1200px;">
+					<img src="images/screenshot/4.png"  style="width:1600px;" >
 				</div>
+				<div class="gap-20"></div>
+				<div class="gap-20"></div>
+				Prin apăsarea link-ului de FAQ din bara de navigație, utilizatorul va fi redirecționat către o pagină de suport tehnic: <br>
+				<div class="gap-20"></div>
+				<div>
+					<img src="images/screenshot/FAQ.png" style="width:1200px;">
+				</div>
+				<div class="gap-20"></div>
 				As we can see, 3 new menus are now available: Account, Appointments and Logout. <br>
-				By selecting the Account menu, the user can update his/her data as shown in the following image:
 				<div class="gap-20"></div>
 				<div>
 					<img src="images/screenshot/5.png" style="width:1200px;">
@@ -282,12 +319,13 @@
 
 		<!-- BEAUTY AND WELLNESS VERSION -->
 		<div class="text-center" style="padding-bottom:20px; padding-top:50px;">
-			<h2 class="heading-29190">Beauty and Wellness Salons Version</h2>
+			<h2 class="heading-29190">Interfața pentru Clinici și Cabinete</h2>
 			<div class="row d-flex align-items-center justify-content-center" style="margin:auto;">
 				<div class="card-body col-12 col-md-8">
-					Despite the version for clients, the prototype for the beauty and wellness salons is still in progress as
-					we are still working for the Front-End part.
-					Good things take time :D
+					În ceea ce privește interfața pentru clinici și cabinete (interfața doctor), aceasta va conține următoarele funcționalități: <br>
+					- Posibilitatea de a se autentifica cu un cont de doctor <br>
+					- Posibiltatea de a vizualiza programările realizate de către pacienți <br>
+					- Posibilitatea de vizualizare a istoricului medical pentru fiecare pacient <br>
 				</div>
 
 				<div>
@@ -300,20 +338,18 @@
 
 		<!-- WHAT'S NEXT? -->
 		<div class="text-center" style="padding-bottom:20px; padding-top:50px;">
-			<h2 class="heading-29190">What's next?</h2>
+			<h2 class="heading-29190">Ce urmează?</h2>
 			<div class="row d-flex align-items-center justify-content-center" style="margin:auto;">
 				<div>
 					<img src="images/next.png" style="width:200px;">
 				</div>
 
 				<div class="card-body col-12 col-md-8">
-					Currently, we are still working on developing PlanInsta in order to finish the prototype 
-					for the beauty and wellness salons. <br>
-					Once this is ready, we will focus on implementing the 
-					<span style="font-weight:bold;">NICE TO HAVE elements</span>, which will represent the differentiators 
-					between PlanInsta and the existing solutions. <br>
-					At the same time, we will try to periodically get feedback for the new functionalities in order to ensure that our solution remains 
-					simple to use for our users and that its functionalities meet their requirements. <br>
+					Momentan, încă lucrăm la finalizarea platformei HealthHero, aplicație petru realizarea programărilor medicale online pentru clinicile și cabinetele mici din toată țara.<br>
+					Când funcționalitățile <span style="font-weight:bold;">OBLIGATORII</span> vor vi implementate, ne vom focusa și pe implementarea funcționalităților
+					<span style="font-weight:bold;">OPȚIONALE</span>, ce vor face diferența față de soluțiile actuale de pe piață. <br>
+					În același timp, vom încerca să obținem feedback, în mod periodic, atât de la pacienți, cât și de la cabinetele și clinicile mici din toată țara, spre a ne asigura că funcționalitățile pe care 
+					noi încercăm să le implementăm coincid cu dorințele și nevoile utilizatorilor noștri. <br>
 				</div>
 			</div>
 			
